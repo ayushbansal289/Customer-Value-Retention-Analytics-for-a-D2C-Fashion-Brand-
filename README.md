@@ -16,7 +16,7 @@ An end-to-end customer analytics project that identifies **high-value customers*
 # :bar_chart: Power BI Dashboard
 
 <p align="center">
-<img src="screenshots/dashboard.png" width="100%">
+<img src="screenshot.jpeg" width="100%">
 </p>
 
 ### Dashboard Highlights
