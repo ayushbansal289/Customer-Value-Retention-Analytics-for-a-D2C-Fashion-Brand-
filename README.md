@@ -1,18 +1,60 @@
 # :bar_chart: Decoding Customer Value: A SQL-Driven Retention Strategy
 
-An end-to-end customer analytics project that identifies high-value customers, measures promotion dependency, and develops data-driven retention strategies using **Python, SQL, and Power BI**.
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
+
+</p>
+
+An end-to-end customer analytics project that identifies **high-value customers**, measures **promotion dependency**, and develops **data-driven retention strategies** using **Python, SQL, and Power BI**.
 
 ---
+# :bar_chart: Power BI Dashboard
+
+<p align="center">
+<img src="screenshots/dashboard.png" width="100%">
+</p>
+
+### Dashboard Highlights
+
+- 📈 Customer Segmentation Distribution
+- 💰 Revenue Overview
+- 👥 Customer Metrics
+- ⭐ Loyalty Score Analysis
+- 🏷️ Promotion Dependency
+- 🗺️ Geographic Opportunity Map
+- 🎯 Customer Pyramid
+- 📉 Revenue at Risk
+
+---
+
+### Key Metrics
+
+| KPI | Value |
+|------|------:|
+| 💰 Total Revenue | **233K** |
+| 👥 Total Customers | **3.9K** |
+| ⭐ Avg Loyalty Score | **0.51** |
+| 🏷️ Avg Promotion Dependency | **0.44** |
+| ⚠️ Customers at Risk | **34** |
+| 💸 Revenue at Risk | **2K** |
+
+---
+
 
 ## :dart: Project Overview
 
 This project analyzes customer transactional and behavioral data for a D2C fashion brand to:
 
 - Identify loyal vs. discount-driven customers
-- Measure customer value using engineered metrics
-- Segment customers based on purchasing behavior
-- Build an interactive Power BI dashboard
-- Recommend data-driven retention strategies
+- Engineer customer value metrics
+- Segment customers based on behavioral patterns
+- Build an executive Power BI dashboard
+- Recommend retention strategies backed by analytics
 
 ---
 
@@ -30,55 +72,81 @@ The business wanted to answer:
 
 ## :computer: Tech Stack
 
-- :snake: Python (Pandas, NumPy)
-- :floppy_disk: SQL
-- :bar_chart: Power BI
-- :page_facing_up: Excel
+| Tool | Purpose |
+|------|---------|
+| 🐍 Python | Data Cleaning & Feature Engineering |
+| 💾 SQL | Customer Segmentation & Business Analysis |
+| 📊 Power BI | Dashboard & Visualization |
+| 📄 Excel | Data Exploration |
 
 ---
 
 ## :gear: Project Workflow
 
-### :snake: Data Preparation (Python)
+```text
+Raw Dataset
+      │
+      ▼
+Python Data Cleaning
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+SQL Business Analysis
+      │
+      ▼
+Power BI Dashboard
+      │
+      ▼
+Business Recommendations
+```
 
-- Data cleaning
-- Feature engineering
-- Loyalty Score
+---
+
+## :snake: Data Preparation (Python)
+
+- Data Cleaning
+- Feature Engineering
 - Customer Value Score
+- Loyalty Score
 - Promotion Dependency Score
+- Organic Demand Score
 - Customer Segmentation
 
-### :floppy_disk: SQL Analysis
+---
 
-- Customer segmentation
-- Revenue analysis
-- Geographic insights
-- Category analysis
-- Promotion dependency
+## :floppy_disk: SQL Analysis
 
-### :bar_chart: Power BI Dashboard
+Performed SQL analysis to uncover:
 
-- Customer Pyramid
-- Promotion Dependency vs Retention
-- Geographic Opportunity Map
-- Category Funnel
+- Customer Segmentation
+- Revenue Analysis
+- Promotion Dependency
+- Geographic Opportunities
+- Category Performance
+- Customer Value Distribution
 
-### :bulb: Business Recommendations
+---
 
+
+## :bulb: Business Recommendations
+
+- Loyalty-first retention strategy
 - Promotional Sunset Plan
 - Ideal Customer Profile
-- Loyalty Strategy
-- Margin Improvement Plan
+- Margin Optimization Strategy
+- Geographic Expansion Recommendations
 
 ---
 
 ## :busts_in_silhouette: Customer Segments
 
-- Brand Loyalists
-- Discount Addicts
-- High Potential Customers
-- Dormant Buyers
-- Revenue At Risk
+- 🟢 Brand Loyalists
+- 🔵 High Potential
+- 🟡 Dormant Buyers
+- 🟠 Discount Addicts
+- 🔴 Revenue At Risk
 
 ---
 
@@ -88,17 +156,18 @@ The business wanted to answer:
 - Loyalty Score
 - Promotion Dependency Score
 - Organic Demand Score
-- Satisfaction Flag
-- Value Tier Classification
+- Customer Value Tier
+- Interactive Dashboard
+- Executive Playbook
 
 ---
 
 ## :chart_with_upwards_trend: Key Insights
 
-- Loyalty drives long-term revenue.
-- Repeat purchases predict customer value.
-- Discounts increase transactions but not customer loyalty.
-- Organic demand reveals expansion opportunities.
+- Loyalty drives higher long-term revenue.
+- Repeat purchases are the strongest predictor of customer value.
+- Heavy discounting increases dependency instead of loyalty.
+- Several regions exhibit strong organic demand.
 - Loyalty-based rewards outperform blanket discounting.
 
 ---
@@ -106,36 +175,38 @@ The business wanted to answer:
 ## :file_folder: Repository Structure
 
 ```text
-data/
-python/
-sql/
-powerbi/
-reports/
-screenshots/
-README.md
+📂 Customer-Retention-Analytics
+│
+├── 📁 data
+├── 📁 python
+├── 📁 sql
+├── 📁 powerbi
+├── 📁 reports
+├── 📁 screenshots
+│      └── dashboard.png
+├── 📄 README.md
 ```
 
 ---
 
 ## :rocket: Results
 
-:white_check_mark: Built customer segmentation model
-
-:white_check_mark: Created interactive Power BI dashboard
-
-:white_check_mark: Developed retention strategy
-
-:white_check_mark: Generated executive business recommendations
+- ✅ Engineered customer-level metrics
+- ✅ Built SQL segmentation queries
+- ✅ Designed executive Power BI dashboard
+- ✅ Identified high-value customer profiles
+- ✅ Developed actionable retention strategy
 
 ---
 
 ## :trophy: Future Improvements
 
-- Customer Lifetime Value Prediction
+- Customer Lifetime Value (CLV)
 - Churn Prediction
+- Machine Learning Models
 - Recommendation Engine
 - Automated ETL Pipeline
-- Machine Learning Models
+- Real-time Dashboard
 
 ---
 
@@ -145,3 +216,12 @@ This project is intended for educational and portfolio purposes.
 
 ---
 
+## :man_technologist: Author
+
+**Ayush Bansal**
+
+📧 ayushbansal.1611@gmail.com
+
+🔗 LinkedIn: *(Add your LinkedIn URL)*
+
+💻 GitHub: *(Add your GitHub URL)*
